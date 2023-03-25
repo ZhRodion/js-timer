@@ -1,9 +1,105 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title></title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Калькулятор</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="page">
+		<section class="timer">
+			<h2 class="timer__title visually-hidden">Таймер</h2>
+			<div class="all-timer-container">
+				<!-- Минуты -->
+				<div class="timer-container">
+					<div class="time">
+						<span class="time__minutes-value">2:</span
+						><span class="time__seconds-value">40</span>
+					</div>
+					<div class="buttons">
+						<button
+							class="buttons__play-button button-disabled"
+							type="button"
+						></button
+						><button
+							class="buttons__stop-button button-disabled"
+							type="button"
+						></button>
+					</div>
+				</div>
+				<!-- Минуты -->
+				<div class="timer-container">
+					<div class="time">
+						<span class="time__minutes-value">25:</span
+						><span class="time__seconds-value">32</span>
+					</div>
+					<div class="buttons">
+						<button
+							class="buttons__play-button button-disabled"
+							type="button"
+						></button
+						><button
+							class="buttons__stop-button button-disabled"
+							type="button"
+						></button>
+					</div>
+				</div>
+				<!-- Часы/Минуты -->
+				<div class="timer-container">
+					<div class="time">
+						<span class="time__hours-value">1:</span>
+						<span class="time__minutes-value">30:</span
+						><span class="time__seconds-value">15</span>
+					</div>
+					<div class="buttons">
+						<button
+							class="buttons__play-button button-disabled"
+							type="button"
+						></button
+						><button
+							class="buttons__stop-button button-disabled"
+							type="button"
+						></button>
+					</div>
+				</div>
+				<!-- Часы/Минуты -->
+				<div class="timer-container">
+					<div class="time">
+						<span class="time__hours-value">1:</span>
+						<span class="time__minutes-value">20:</span
+						><span class="time__seconds-value">33</span>
+					</div>
+					<div class="buttons">
+						<button
+							class="buttons__play-button button-disabled"
+							type="button"
+						></button
+						><button
+							class="buttons__stop-button button-disabled"
+							type="button"
+						></button>
+					</div>
+				</div>
+				<!-- Добавочный элемент -->
+				<button class="all-timer-container__button">
+					<svg
+						width="20"
+						height="20"
+						viewBox="0 0 20 20"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<rect x="8.5" width="3" height="20" fill="#9E9E9E" />
+						<rect
+							y="11.5"
+							width="3"
+							height="20"
+							transform="rotate(-90 0 11.5)"
+							fill="#9E9E9E"
+						/>
+					</svg>
+				</button>
+			</div>
+		</section>
+	</body>
 </html>

@@ -1,0 +1,62 @@
+.timer {
+  max-width: 100%;
+  padding: 0 46px 0 49px;
+  margin: 0;
+  @media (min-width: $tablet) {
+    padding: 0 133px 0 135px;
+  }
+  @media (min-width: $desktop) {
+    padding: 0 213px 0 212px;
+  }
+}
+.all-timer-container {
+  max-width: 100%;
+  padding: 72px 0 77px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  @media (min-width: $tablet) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px 45px;
+    padding: 72px 0 72px;
+  }
+  @media (min-width: $desktop) {
+    padding: 72px 0 82px;
+  }
+}
+.timer-container {
+  width: 225px;
+  min-height: 120px;
+  background: #696969;
+}
+
+.time__hours-value, .time__minutes-value, .time__seconds-value {
+  color: #9E9E9E;
+  font-size: 22px;
+  line-height: 0.95;
+}
+.time {
+  padding: 22px 0 20px;
+  border-bottom: 1px solid #9E9E9E;
+}
+.buttons {
+  padding: 22px 0 20px;
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+}
+.buttons__play-button, .buttons__stop-button {
+ width: 20px;
+ height: 20px;
+ padding: 0;
+ margin: 0;
+ border: 0;
+}
+.all-timer-container__button {
+  width: 225px;
+  min-height: 120px;
+  padding: 0;
+  border: 0;
+  background: #696969;
+}
