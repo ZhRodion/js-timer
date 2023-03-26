@@ -2,7 +2,7 @@
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Калькулятор</title>
+		<title>Таймер</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
@@ -13,8 +13,7 @@
 				<!-- Минуты -->
 				<div class="timer-container">
 					<div class="time">
-						<span class="time__minutes-value">2:</span
-						><span class="time__seconds-value">40</span>
+						<p class="counter-value"></p>
 					</div>
 					<div class="buttons">
 						<button
@@ -30,8 +29,7 @@
 				<!-- Минуты -->
 				<div class="timer-container">
 					<div class="time">
-						<span class="time__minutes-value">25:</span
-						><span class="time__seconds-value">32</span>
+						<p class="counter-value"></p>
 					</div>
 					<div class="buttons">
 						<button
@@ -47,9 +45,7 @@
 				<!-- Часы/Минуты -->
 				<div class="timer-container">
 					<div class="time">
-						<span class="time__hours-value">1:</span>
-						<span class="time__minutes-value">30:</span
-						><span class="time__seconds-value">15</span>
+						<p class="counter-value"></p>
 					</div>
 					<div class="buttons">
 						<button
@@ -65,9 +61,7 @@
 				<!-- Часы/Минуты -->
 				<div class="timer-container">
 					<div class="time">
-						<span class="time__hours-value">1:</span>
-						<span class="time__minutes-value">20:</span
-						><span class="time__seconds-value">33</span>
+						<p class="counter-value"></p>
 					</div>
 					<div class="buttons">
 						<button
@@ -81,7 +75,7 @@
 					</div>
 				</div>
 				<!-- Добавочный элемент -->
-				<button class="all-timer-container__button">
+				<button class="all-timer-container__button" type="button">
 					<svg
 						width="20"
 						height="20"
@@ -101,5 +95,7 @@
 				</button>
 			</div>
 		</section>
+		<script src="./js/timer-counter.js"></script>
+		<script src="./js/timer-add.js"></script>
 	</body>
 </html>

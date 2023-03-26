@@ -14,6 +14,7 @@
   padding: 72px 0 77px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 45px;
   @media (min-width: $tablet) {
     flex-direction: row;
@@ -31,10 +32,12 @@
   background: #696969;
 }
 
-.time__hours-value, .time__minutes-value, .time__seconds-value {
+.counter-value {
   color: #9E9E9E;
   font-size: 22px;
   line-height: 0.95;
+  margin: 0;
+
 }
 .time {
   padding: 22px 0 20px;
