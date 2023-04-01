@@ -10,6 +10,7 @@ let time = [160, 1532, 5415, 4833];
 
 // Вызов функции с разными параметрами через каждую секунду
 // Сохраняем идетификаторы интервалов созданных функцией "setInterval()" как массив. Интервалы возвращаются в идентификатор, который сохраняется в intervalID, затем добавляется при помощи push() d vfccbd intervalIds;
+
 let intervalIds = [];
 for (let i = 0; i < time.length; i++) {
   let intervalId = setInterval(function () {
